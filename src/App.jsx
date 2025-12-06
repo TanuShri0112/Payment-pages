@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import SuccessPage from "./pages/SuccessPage";
-import FailedPage from "./pages/FailedPage";
+import CancelledPage from "./pages/CancelledPage";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/success" element={<SuccessPage />} />
-        <Route path="/failed" element={<FailedPage />} />
+        <Route path="/cancelled" element={<CancelledPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>

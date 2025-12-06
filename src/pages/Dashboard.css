@@ -81,7 +81,7 @@
   background: linear-gradient(90deg, #10b981, #34d399);
 }
 
-.dashboard-card.failed::before {
+.dashboard-card.cancelled::before {
   background: linear-gradient(90deg, #ef4444, #f87171);
 }
 
@@ -95,7 +95,7 @@
   border-color: #10b981;
 }
 
-.dashboard-card.failed:hover {
+.dashboard-card.cancelled:hover {
   border-color: #ef4444;
 }
 
@@ -140,12 +140,12 @@
   background: #10b981;
 }
 
-.card-icon.failed {
+.card-icon.cancelled {
   background: linear-gradient(135deg, #ef4444 0%, #f87171 100%);
   box-shadow: 0 8px 20px rgba(239, 68, 68, 0.25);
 }
 
-.card-icon.failed::after {
+.card-icon.cancelled::after {
   background: #ef4444;
 }
 

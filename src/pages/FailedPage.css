@@ -1,4 +1,4 @@
-.failed-page {
+.cancelled-page {
   min-height: 100vh;
   background: #f3f4f6;
   display: flex;
@@ -7,13 +7,13 @@
   padding: 1.5rem;
 }
 
-.failed-container {
+.cancelled-container {
   max-width: 450px;
   width: 100%;
   animation: scaleIn 0.4s ease-out;
 }
 
-.failed-card {
+.cancelled-card {
   background: white;
   border-radius: 0.75rem;
   padding: 2rem;
@@ -21,17 +21,17 @@
   border: 1px solid #e5e7eb;
 }
 
-.failed-icon-wrapper {
+.cancelled-icon-wrapper {
   display: flex;
   justify-content: center;
   margin-bottom: 1.5rem;
 }
 
-.failed-icon-ring {
+.cancelled-icon-ring {
   display: none;
 }
 
-.failed-icon {
+.cancelled-icon {
   width: 60px;
   height: 60px;
   background: #ef4444;
@@ -41,7 +41,7 @@
   justify-content: center;
 }
 
-.failed-icon svg {
+.cancelled-icon svg {
   width: 30px;
   height: 30px;
   stroke: white;
@@ -49,19 +49,19 @@
   fill: none;
 }
 
-.failed-content {
+.cancelled-content {
   text-align: center;
   margin-bottom: 1.5rem;
 }
 
-.failed-title {
+.cancelled-title {
   font-size: 1.5rem;
   font-weight: 600;
   color: #111827;
   margin-bottom: 0.5rem;
 }
 
-.failed-message {
+.cancelled-message {
   font-size: 0.875rem;
   color: #6b7280;
 }
@@ -159,7 +159,7 @@
   font-weight: bold;
 }
 
-.failed-buttons {
+.cancelled-buttons {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -226,12 +226,12 @@
 }
 
 @media (max-width: 640px) {
-  .failed-title {
-    font-size: 2rem;
+  .cancelled-title {
+    font-size: 1.25rem;
   }
   
-  .failed-card {
-    padding: 2rem;
+  .cancelled-card {
+    padding: 1.5rem;
   }
 }
 

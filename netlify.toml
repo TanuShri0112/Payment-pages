@@ -18,3 +18,5 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Content-Security-Policy = "frame-src 'self' blob: data: *.netlify.app *.youtube.com *.google.com *.adobe.com;"
 
+
+

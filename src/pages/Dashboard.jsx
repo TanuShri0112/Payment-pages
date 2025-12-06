@@ -31,15 +31,15 @@ const Dashboard = () => {
             </div>
           </button>
           
-          <button onClick={() => navigate("/failed")} className="dashboard-card failed">
+          <button onClick={() => navigate("/cancelled")} className="dashboard-card cancelled">
             <div className="card-content">
-              <div className="card-icon failed">
+              <div className="card-icon cancelled">
                 <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </div>
-              <h2 className="card-title">Failed Page</h2>
-              <p className="card-description">Payment declined or failed</p>
+              <h2 className="card-title">Cancelled Page</h2>
+              <p className="card-description">Payment cancelled</p>
               <div className="card-arrow">
                 <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
