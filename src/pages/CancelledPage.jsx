@@ -24,14 +24,6 @@ const CancelledPage = () => {
             </p>
           </div>
 
-          <div className="cancelled-buttons">
-            <button onClick={() => navigate("/")} className="btn btn-primary">
-              Back to Dashboard
-            </button>
-            <button className="btn btn-secondary">
-              Contact Support
-            </button>
-          </div>
         </div>
       </div>
     </div>

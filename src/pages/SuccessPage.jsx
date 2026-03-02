@@ -24,14 +24,6 @@ const SuccessPage = () => {
             </p>
           </div>
 
-          <div className="success-buttons">
-            <button onClick={() => navigate("/")} className="btn btn-primary">
-              Back to Dashboard
-            </button>
-            <button className="btn btn-secondary">
-              Go to Home
-            </button>
-          </div>
         </div>
       </div>
     </div>
